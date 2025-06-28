@@ -147,7 +147,7 @@ static_assert(WLED_MAX_BUSSES <= 32, "WLED_MAX_BUSSES exceeds hard limit");
 #define USERMOD_ID_FIXNETSERVICES         4     //Usermod "usermod_Fix_unreachable_netservices.h"
 #define USERMOD_ID_PIRSWITCH              5     //Usermod "usermod_PIR_sensor_switch.h"
 #define USERMOD_ID_IMU                    6     //Usermod "usermod_mpu6050_imu.h"
-#define USERMOD_ID_FOUR_LINE_DISP         7     //Usermod "usermod_v2_four_line_display.h
+#define USERMOD_ID_FOUR_LINE_DISP         7     //Usermod "usermod_v2_four_line_display.h"
 #define USERMOD_ID_ROTARY_ENC_UI          8     //Usermod "usermod_v2_rotary_encoder_ui.h"
 #define USERMOD_ID_AUTO_SAVE              9     //Usermod "usermod_v2_auto_save.h"
 #define USERMOD_ID_DHT                   10     //Usermod "usermod_dht.h"
@@ -170,7 +170,7 @@ static_assert(WLED_MAX_BUSSES <= 32, "WLED_MAX_BUSSES exceeds hard limit");
 #define USERMOD_ID_WORDCLOCK             27     //Usermod "usermod_v2_word_clock.h"
 #define USERMOD_ID_MY9291                28     //Usermod "usermod_MY9291.h"
 #define USERMOD_ID_SI7021_MQTT_HA        29     //Usermod "usermod_si7021_mqtt_ha.h"
-#define USERMOD_ID_BME280                30     //Usermod "usermod_bme280.h
+#define USERMOD_ID_BME280                30     //Usermod "usermod_bme280.h"
 #define USERMOD_ID_SMARTNEST             31     //Usermod "usermod_smartnest.h"
 #define USERMOD_ID_AUDIOREACTIVE         32     //Usermod "audioreactive.h"
 #define USERMOD_ID_ANALOG_CLOCK          33     //Usermod "Analog_Clock.h"
@@ -178,8 +178,8 @@ static_assert(WLED_MAX_BUSSES <= 32, "WLED_MAX_BUSSES exceeds hard limit");
 #define USERMOD_ID_ADS1115               35     //Usermod "usermod_ads1115.h"
 #define USERMOD_ID_BOBLIGHT              36     //Usermod "boblight.h"
 #define USERMOD_ID_SD_CARD               37     //Usermod "usermod_sd_card.h"
-#define USERMOD_ID_PWM_OUTPUTS           38     //Usermod "usermod_pwm_outputs.h
-#define USERMOD_ID_SHT                   39     //Usermod "usermod_sht.h
+#define USERMOD_ID_PWM_OUTPUTS           38     //Usermod "usermod_pwm_outputs.h"
+#define USERMOD_ID_SHT                   39     //Usermod "usermod_sht.h"
 #define USERMOD_ID_KLIPPER               40     //Usermod Klipper percentage
 #define USERMOD_ID_WIREGUARD             41     //Usermod "wireguard.h"
 #define USERMOD_ID_INTERNAL_TEMPERATURE  42     //Usermod "usermod_internal_temperature.h"
@@ -189,7 +189,7 @@ static_assert(WLED_MAX_BUSSES <= 32, "WLED_MAX_BUSSES exceeds hard limit");
 #define USERMOD_ID_HTTP_PULL_LIGHT_CONTROL 46   //usermod "usermod_v2_HttpPullLightControl.h"
 #define USERMOD_ID_TETRISAI              47     //Usermod "usermod_v2_tetris.h"
 #define USERMOD_ID_MAX17048              48     //Usermod "usermod_max17048.h"
-#define USERMOD_ID_BME68X                49     //Usermod "usermod_bme68x.h
+#define USERMOD_ID_BME68X                49     //Usermod "usermod_bme68x.h"
 #define USERMOD_ID_INA226                50     //Usermod "usermod_ina226.h"
 #define USERMOD_ID_AHT10                 51     //Usermod "usermod_aht10.h"
 #define USERMOD_ID_LD2410                52     //Usermod "usermod_ld2410.h"
@@ -199,6 +199,8 @@ static_assert(WLED_MAX_BUSSES <= 32, "WLED_MAX_BUSSES exceeds hard limit");
 #define USERMOD_ID_RF433                 56     //Usermod "usermod_v2_RF433.h"
 #define USERMOD_ID_BRIGHTNESS_FOLLOW_SUN 57     //Usermod "usermod_v2_brightness_follow_sun.h"
 #define USERMOD_ID_USER_FX               58     //Usermod "user_fx"
+#define USERMOD_ID_GPIO_CONTROL          59     //Usermod "GPIO_Control.h"
+#define USERMOD_ID_LED_CONTROLLER        60     //Usermod "LED_Controller_Usermod.h"
 
 //Access point behavior
 #define AP_BEHAVIOR_BOOT_NO_CONN          0     //Open AP when no connection after boot
