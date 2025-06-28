@@ -333,7 +333,7 @@ class PowerManagementUsermod : public Usermod {
      */
     uint16_t getId() override
     {
-      return USERMOD_ID_GPIO_CONTROL;
+      return USERMOD_ID_POWER_MANAGEMENT;
     }
 };
 
@@ -349,7 +349,7 @@ const char PowerManagementUsermod::_lowBatteryThreshold[] PROGMEM = "lowBatteryT
 const char PowerManagementUsermod::_keepAliveTimeout[] PROGMEM = "keepAliveTimeout";
 
 // Create global instance
-PowerManagementUsermod gpio_control;
+PowerManagementUsermod power_management;
 
 // Register the usermod
-REGISTER_USERMOD(gpio_control); 
+REGISTER_USERMOD(power_management); 
